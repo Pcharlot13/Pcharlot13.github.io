@@ -169,10 +169,6 @@ footer {
     cursor: pointer;
 }
 
-/* Navbar home button */
-.Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkblue;
-}
 /***** End of Navbar Styling *****/
 
 /***** Video Styling *****/
@@ -214,7 +210,7 @@ footer {
 
 /***** Slideshow Styling *****/
 #Slideshow_Background {
-    background: rgba(0, 0, 0, 0.35); /* This creates a slightly transparent white background that's palced over the video in the background */    
+    background-color:rgb(0,0,0,.95); /*background of the slide show*/
 }
 
 .mySlides{
@@ -344,7 +340,7 @@ footer {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #030442b7;
+    background-color:rgb(0,0,0,.97);
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
