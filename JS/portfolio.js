@@ -6,7 +6,7 @@ function openForm() {
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
-
+//adadas
 // This function displays the first image in the slideshow when the page loads
 var slideIndex = 1;
 showSlides(slideIndex);
