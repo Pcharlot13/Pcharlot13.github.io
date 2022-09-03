@@ -44,6 +44,26 @@ h1:hover {
     padding-top: 10vh; /* Adds padding (equal to 10% of the viewport height) to the top of the Portfolio Title text */
 }
 
+#home-page-quote {
+
+}
+
+#home-page-quote p {
+    text-align: center;
+    line-height: 150%;
+}
+
+#home-page-quote q {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#home-page-greeting {
+    text-align: center;
+    font-size: 90%;
+}
+
+
 /* Paragraph elements */
 p {
     font-family: Perpetua, Rockwell Extra Bold;
