@@ -36,3 +36,19 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block"; // This displays the image in the slideshow
     dots[slideIndex - 1].className += " active"; // This adds the active styling to the dot associated with the image
 }
+
+// Randomly displays a quote on the home page
+showRandomQuote();
+
+function showRandomQuote() {
+    const quotesBank = [
+        `<p><q>The number one benefit of information technology is that it empowers people to do what they want to do.<br>It lets people be creative. It lets people be productive.<br>It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential.</q>&ndash; Steve Ballmer</p>`,
+        `<p><q>Languages evolve; ideas blend together. In computer technology, we all stand on others' shoulders.</q>&ndash; Paul Allen</p>`,
+        `<p><q>Intelligence is the ability to avoid doing work, yet getting the work done.</q>&ndash; Linus Torvalds</p>`,
+        `<p><q>If you love what you do and are willing to do what it takes, it's within your reach. And it'll be worth every minute you spend alone at night, thinking and thinking about what it is you want to design or build. It'll be worth it, I promise.</q>&ndash; Steve Wozniak</p>`
+    ];
+
+    const quote = quotesBank[Math.floor(Math.random() * quotesBank.length)];
+
+    document.getElementById('home-page-quote').innerHTML = quote;
+}
